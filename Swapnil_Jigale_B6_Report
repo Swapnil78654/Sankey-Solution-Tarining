@@ -1,0 +1,30 @@
+Git
+
+	Version Control -
+		Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later.
+
+CVCS –
+		Centralized version control system. In this system have a single server that contains all the versioned files, and a number of clients that check out files from that central place.
+
+DVCS –
+		Distributed version control system. In DVCS clients don’t just check out the latest snapshot of the files; rather, they fully mirror the repository, including its full history. 
+    Thus, if any server dies, and these systems were collaborating via that server, any of the client repositories can be copied back up to the server to restore it.
+    Every clone is really a full backup of all the data.
+
+Branching and Merging –
+		Branching means simply create a branch in main project line and do what you want to do in that branch. It does not affect the main branch until it does not get merge to main project line.
+		Merging means we can merge the branch to the main line project.
+
+Fork – 
+	You can fork a repository to create a copy of the repository and make changes without affecting the main repository.
+
+Git Commands :-
+
+	git init (Git repository)
+	git checkout (Latest commit)
+	git status (Different states of files)
+	git commit (Save repository permanently)
+	git checkout -b branchname (Create a branch)
+	git branch branchname  
+	git merge branchname (Merge a branch)
+	git branch -d branchname (Delete a branch)
